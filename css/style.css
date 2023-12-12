@@ -1,0 +1,72 @@
+#home{
+    /* background-color: #a76a54; */
+    background-image: url("../pexels-adonis-arias-4601807.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+#home .title{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    
+}
+
+#home .h1{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#home .p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#home .quote-box{
+    background-color:#ede0dca5; 
+    box-shadow: 0 0 15px #fff;
+    height: 250px;
+}
+
+ #quote , #author{
+    font-family: 'EB Garamond', serif;
+    font-size: 24px;
+}
+
+#home button{
+    position: relative;
+    padding: 20px;
+    border: none;
+    background-color: transparent;
+    /* font-size: 18px; */
+    font-weight: 600;
+}
+
+#home button::before{
+    content: "";
+    width: 120%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -5px;
+    border-left: 10px solid pink;
+    border-radius: 50%;
+
+    
+}
+
+
+#home button::after{
+    content: "";
+    width: 120%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -5px;
+    border-right: 10px solid pink;
+    border-radius: 50%;
+}
+
+
+
